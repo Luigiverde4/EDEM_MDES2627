@@ -87,3 +87,11 @@
     background-color: var(--color-secondary);
     color: var(--color-amarillo);
 }
+
+
+
+@media (max-width: 768px) {
+    .contact__container {
+        flex-direction: column;
+    }
+}
